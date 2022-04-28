@@ -28,6 +28,7 @@ export function NewTransactionModal({
       title,
       value,
       category,
+      type,
     };
 
     api.post("/transactions", data);
